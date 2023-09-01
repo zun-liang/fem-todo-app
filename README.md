@@ -54,7 +54,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [here](https://your-solution-url.com)
+- Solution URL: [here](https://www.frontendmentor.io/solutions/todo-app-_MCCMFmZnq)
 - Live Site URL: [here](https://zun-liang.github.io/todo-app/)
 
 ## My process
