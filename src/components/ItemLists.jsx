@@ -2,6 +2,7 @@ import { DragDropContext, Draggable, Droppable } from "@hello-pangea/dnd";
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 import styled from "styled-components";
+
 import Check from "../assets/images/icon-check.svg";
 import Cross from "../assets/images/icon-cross.svg";
 import {
@@ -30,18 +31,20 @@ const ListContainer = styled(GridContainer)`
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
   }
-  height: 3.2rem;
+  min-height: 3.2rem;
+  height: auto;
+  overflow-wrap: anywhere;
   border-bottom: 1px solid
     ${(props) =>
       props.$theme
         ? "var(--very-light-grayish-blue)"
         : "var(--very-dark-grayish-blue3)"};
-  padding: 0 20px;
+  padding: 20px;
   grid-template-columns: 20px 1fr 20px;
   column-gap: 10px;
   @media (min-width: 800px) {
     column-gap: 20px;
-    height: 3.5rem;
+    min-height: 3.5rem;
     &:hover ${Icon} {
       opacity: 1;
     }

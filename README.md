@@ -33,6 +33,25 @@ Users should be able to:
 
 ### Screenshot
 
+<table>
+  <tr>
+    <td>
+      <img src="./public/screenshots/screenshot-mobile-menu.png" alt="screenshot mobile menu" style="height: 600px" />
+      <img src="./public/screenshots/screenshot-mobile-active.png" alt="screenshot mobile active" style="height: 600px" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="./public//screenshots/screenshot-desktop-default.png" alt="screenshot desktop default" style="width: 150px" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+    <img src="./public/screenshots/screenshot-desktop-active.png" alt="screenshot desktop active" style="width: 150px" />
+    </td>
+  </tr>
+</table>
+
 ### Links
 
 - Solution URL: [here](https://your-solution-url.com)
@@ -71,6 +90,9 @@ Users should be able to:
 #### CSS Related
 
 - [Border Gradient with Border Radius](https://stackoverflow.com/questions/51496204/border-gradient-with-border-radius)
+- [Wrapping and breaking text](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text)
+- [word-break](https://developer.mozilla.org/en-US/docs/Web/CSS/word-break)
+- [overflow-wrap](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap)
 
 #### Javascript Related
 
