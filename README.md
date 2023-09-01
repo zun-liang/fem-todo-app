@@ -36,18 +36,18 @@ Users should be able to:
 <table>
   <tr>
     <td>
-      <img src="./public/screenshots/screenshot-mobile-menu.png" alt="screenshot mobile menu" style="height: 600px" />
-      <img src="./public/screenshots/screenshot-mobile-active.png" alt="screenshot mobile active" style="height: 600px" />
+      <img src="./public/screenshots/screenshot-mobile-light.png" alt="screenshot mobile light" style="height: 300px" />
+      <img src="./public/screenshots/screenshot-mobile-dark.png" alt="screenshot mobile dark" style="height: 300px" />
     </td>
   </tr>
   <tr>
     <td>
-      <img src="./public//screenshots/screenshot-desktop-default.png" alt="screenshot desktop default" style="width: 150px" />
+      <img src="./public//screenshots/screenshot-desktop-light.png" alt="screenshot desktop light" style="width: 300px" />
     </td>
   </tr>
   <tr>
     <td>
-    <img src="./public/screenshots/screenshot-desktop-active.png" alt="screenshot desktop active" style="width: 150px" />
+    <img src="./public/screenshots/screenshot-desktop-dark.png" alt="screenshot desktop dark" style="width: 300px" />
     </td>
   </tr>
 </table>

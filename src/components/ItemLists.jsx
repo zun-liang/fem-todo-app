@@ -101,8 +101,10 @@ const Item = styled.p`
       : "var(--light-grayish-blue2)"};
   text-decoration: ${(props) => (props.$checked ? "line-through" : "none")};
   cursor: pointer;
+  line-height: 1.2rem;
   @media (min-width: 800px) {
     font-size: 1rem;
+    line-height: 1.4rem;
   }
 `;
 
