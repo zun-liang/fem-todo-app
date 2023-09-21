@@ -79,6 +79,7 @@ Users should be able to:
 - background-color: unset
 - How to make gradient borders
 - How to target another styled component on hover
+- useState lazy initialization
 
 ### Continued development
 
@@ -98,6 +99,10 @@ Users should be able to:
 
 - [Date.now()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/now)
 - [Array.from()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
+
+#### React Related
+
+- [useState lazy initialization and function updates](https://kentcdodds.com/blog/use-state-lazy-initialization-and-function-updates)
 
 #### Styled-components Related
 
