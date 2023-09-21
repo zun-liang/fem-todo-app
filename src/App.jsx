@@ -1,11 +1,11 @@
 import { useState } from "react";
 import styled from "styled-components";
-import { FlexContainer } from "./assets/styles/styles";
 
 import BGDesktopDark from "./assets/images/bg-desktop-dark.jpg";
 import BGDesktopLight from "./assets/images/bg-desktop-light.jpg";
 import BGMobileDark from "./assets/images/bg-mobile-dark.jpg";
 import BGMobileLight from "./assets/images/bg-mobile-light.jpg";
+import { FlexContainer } from "./assets/styles/styles";
 import FunctionalList from "./components/FunctionalList";
 import ItemLists from "./components/ItemLists";
 import NewItem from "./components/NewItem";
@@ -41,15 +41,15 @@ const App = () => {
   const [theme, setTheme] = useState(isDayTime);
 
   const [storedItems, setStoredItems] = useState(
-    JSON.parse(localStorage.getItem("all")) || []
+    () => JSON.parse(localStorage.getItem("all")) || []
   );
 
   const [activeItems, setActiveItems] = useState(
-    JSON.parse(localStorage.getItem("active")) || []
+    () => JSON.parse(localStorage.getItem("active")) || []
   );
 
   const [completedItems, setCompletedItems] = useState(
-    JSON.parse(localStorage.getItem("completed")) || []
+    () => JSON.parse(localStorage.getItem("completed")) || []
   );
 
   const [group, setGroup] = useState("all");
